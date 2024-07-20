@@ -13,7 +13,7 @@
 //
 /////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
 
-//package org.example;
+package org.example;
 
 /**
  * This class contains test cases for the H8CustomApp class.
@@ -98,6 +98,7 @@ public class TestH8CustomApp {
      * @param args Command-line arguments (not used in this implementation).
      */
     public static void main(String[] args) {
-        boolean passed = testH8CustomApp();
+        boolean passed =
+                testH8CustomApp();
     }
 }
